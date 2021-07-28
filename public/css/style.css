@@ -24,3 +24,7 @@ hr{
     color: gray;
     width: 500px;
 }
+input{
+    padding:10px;
+    border: 3px;
+}
