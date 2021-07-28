@@ -13,7 +13,7 @@ a{
     margin: 5px;
     background-color: rgb(80, 80, 214);
 }
-a:hover{
+a:hover, button{
     background-color: rgb(107, 107, 170);
 }
 body{
@@ -24,7 +24,13 @@ hr{
     color: gray;
     width: 500px;
 }
-input{
+input, button{
     padding:10px;
-    border: 3px;
+    border-radius: 5px;
+}
+
+button{
+    border:none;
+    background-color: rgb(42, 177, 98);
+    color: white;
 }
